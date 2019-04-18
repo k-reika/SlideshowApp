@@ -91,13 +91,13 @@
                 <viewController id="fVf-3B-dJS" customClass="ResultViewController" customModule="SlideshowApp2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eRp-0S-wRM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i84-oU-dF7">
                                 <rect key="frame" x="55" y="120" width="265" height="447"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rHk-3x-hlu">
-                                <rect key="frame" x="308" y="575" width="31" height="30"/>
+                                <rect key="frame" x="172" y="582" width="31" height="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
                                     <action selector="TapretrunButton:" destination="fVf-3B-dJS" eventType="touchUpInside" id="mo3-gx-G9d"/>
@@ -107,10 +107,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Iky-pe-AIw" firstAttribute="trailing" secondItem="rHk-3x-hlu" secondAttribute="trailing" constant="36" id="1aT-dP-e6N"/>
                             <constraint firstItem="i84-oU-dF7" firstAttribute="leading" secondItem="Iky-pe-AIw" secondAttribute="leading" constant="55" id="97p-Mf-fzM"/>
-                            <constraint firstItem="Iky-pe-AIw" firstAttribute="bottom" secondItem="rHk-3x-hlu" secondAttribute="bottom" constant="62" id="Fka-Pm-kbr"/>
-                            <constraint firstItem="rHk-3x-hlu" firstAttribute="leading" secondItem="Iky-pe-AIw" secondAttribute="leading" constant="308" id="Qak-Wy-zXB"/>
+                            <constraint firstItem="rHk-3x-hlu" firstAttribute="centerX" secondItem="eRp-0S-wRM" secondAttribute="centerX" id="LbG-R6-X9I"/>
+                            <constraint firstItem="Iky-pe-AIw" firstAttribute="bottom" secondItem="rHk-3x-hlu" secondAttribute="bottom" constant="55" id="QiJ-CX-gXL"/>
                             <constraint firstItem="Iky-pe-AIw" firstAttribute="bottom" secondItem="i84-oU-dF7" secondAttribute="bottom" constant="100" id="ZAG-Nk-ozd"/>
                             <constraint firstItem="Iky-pe-AIw" firstAttribute="trailing" secondItem="i84-oU-dF7" secondAttribute="trailing" constant="55" id="dpm-OT-RmM"/>
                             <constraint firstItem="i84-oU-dF7" firstAttribute="top" secondItem="Iky-pe-AIw" secondAttribute="top" constant="100" id="iA8-mj-0De"/>
