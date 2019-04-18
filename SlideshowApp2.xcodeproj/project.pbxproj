@@ -12,6 +12,11 @@
 		E60BDC06226702DC00A32DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60BDC04226702DC00A32DDC /* Main.storyboard */; };
 		E60BDC08226702DD00A32DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60BDC07226702DD00A32DDC /* Assets.xcassets */; };
 		E60BDC0B226702DD00A32DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60BDC09226702DD00A32DDC /* LaunchScreen.storyboard */; };
+		E6730F1E2267075000799846 /* sakura in Resources */ = {isa = PBXBuildFile; fileRef = E6730F1D2267075000799846 /* sakura */; };
+		E6730F212267077600799846 /* ichigo in Resources */ = {isa = PBXBuildFile; fileRef = E6730F202267077600799846 /* ichigo */; };
+		E6730F232267078200799846 /* sakurapark in Resources */ = {isa = PBXBuildFile; fileRef = E6730F222267078200799846 /* sakurapark */; };
+		E6730F252267078A00799846 /* skyberry in Resources */ = {isa = PBXBuildFile; fileRef = E6730F242267078A00799846 /* skyberry */; };
+		E6730F272267FF0E00799846 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6730F262267FF0E00799846 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		E60BDC07226702DD00A32DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E60BDC0A226702DD00A32DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60BDC0C226702DD00A32DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6730F1D2267075000799846 /* sakura */ = {isa = PBXFileReference; lastKnownFileType = file; path = sakura; sourceTree = "<group>"; };
+		E6730F202267077600799846 /* ichigo */ = {isa = PBXFileReference; lastKnownFileType = file; path = ichigo; sourceTree = "<group>"; };
+		E6730F222267078200799846 /* sakurapark */ = {isa = PBXFileReference; lastKnownFileType = file; path = sakurapark; sourceTree = "<group>"; };
+		E6730F242267078A00799846 /* skyberry */ = {isa = PBXFileReference; lastKnownFileType = file; path = skyberry; sourceTree = "<group>"; };
+		E6730F262267FF0E00799846 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 				E60BDC00226702DC00A32DDC /* AppDelegate.swift */,
 				E60BDC02226702DC00A32DDC /* ViewController.swift */,
 				E60BDC04226702DC00A32DDC /* Main.storyboard */,
+				E6730F1D2267075000799846 /* sakura */,
+				E6730F202267077600799846 /* ichigo */,
+				E6730F222267078200799846 /* sakurapark */,
+				E6730F242267078A00799846 /* skyberry */,
 				E60BDC07226702DD00A32DDC /* Assets.xcassets */,
 				E60BDC09226702DD00A32DDC /* LaunchScreen.storyboard */,
 				E60BDC0C226702DD00A32DDC /* Info.plist */,
+				E6730F262267FF0E00799846 /* ResultViewController.swift */,
 			);
 			path = SlideshowApp2;
 			sourceTree = "<group>";
@@ -122,7 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6730F252267078A00799846 /* skyberry in Resources */,
+				E6730F212267077600799846 /* ichigo in Resources */,
 				E60BDC0B226702DD00A32DDC /* LaunchScreen.storyboard in Resources */,
+				E6730F1E2267075000799846 /* sakura in Resources */,
+				E6730F232267078200799846 /* sakurapark in Resources */,
 				E60BDC08226702DD00A32DDC /* Assets.xcassets in Resources */,
 				E60BDC06226702DC00A32DDC /* Main.storyboard in Resources */,
 			);
@@ -137,6 +156,7 @@
 			files = (
 				E60BDC03226702DC00A32DDC /* ViewController.swift in Sources */,
 				E60BDC01226702DC00A32DDC /* AppDelegate.swift in Sources */,
+				E6730F272267FF0E00799846 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: SmartDeviceGr i-enter (A7QY4NQV5A)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XLM7K96PXP;
 				INFOPLIST_FILE = SlideshowApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +312,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.reika.kikuchi.SlideshowApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Team_DEV;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +322,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: SmartDeviceGr i-enter (A7QY4NQV5A)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XLM7K96PXP;
 				INFOPLIST_FILE = SlideshowApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.reika.kikuchi.SlideshowApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Team_DEV;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
